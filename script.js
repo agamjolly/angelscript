@@ -47,7 +47,7 @@
       companyName = $(elem).find('.startup-link').text();
 
       // Build personalized note
-      customNote = "Hi " + contactName + "! I'm a full-stack developer and founder of Eli Sleep - a sleep tracking toy built using NodeBots which uses intricate accelerometers and microphones to detect sleeping patterns in children - that analyses how a child sleeps at night and analyses the child's sleep over a cloud, sending the data back to the parents on a cross-platform app built in React Native. My company was recently in talks of being acquired for $130k by a famous VC-backed group based in Chicago. \nIn the past few weeks, I have been working on several personal projects, which include Chrome extenisons made to improve productivity, built using Node.js and Flask. \nI'd love to contribute my skills to " + companyName + ". Let's chat!";
+      customNote = "Hi " + contactName + "! I am a full-stack developer and a student at UC Berkeley majoring in Computer Science. I love playing around with web-based frameworks, as I learn how to develop dynamic cross-platform apps. In the past, I have worked with my own company, where I independently raised $130k for a fantastic idea that was incubated at MIT LaunchX. \nIn the past few months, I have been trying to work with the MERN stack to make scalable web apps. Picking up new technologies shouldn’t be a problem for me, so I am willing to explore languages and frameworks that I haven’t worked with before. \nI think " + companyName + " would be a fantastic addition to my resume and I can’t wait to hear back from you. Let’s chat!";
 
       // .header-info .tagline (text)
       jobDescription = $(elem).find('.tagline').text();
